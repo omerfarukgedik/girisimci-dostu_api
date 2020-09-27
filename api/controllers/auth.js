@@ -81,7 +81,7 @@ const login = async (userCreds, res) => {
   return res.status(200).json({
     message: "Başarılı bir şekilde giriş yaptınız.",
     success: true,
-    token: `Bearer ${token}`,
+    token,
     user: result,
   });
 };
