@@ -8,7 +8,7 @@ const BasketSchema = new Schema(
     },
     products: [
       {
-        type: Schema.Types.ObjectId,
+        type: Object,
         ref: "Product",
       },
     ],

@@ -25,7 +25,7 @@ const UserSchema = new Schema(
     },
     basket: [
       {
-        type: Schema.Types.ObjectId,
+        type: Object,
         ref: "Product",
       },
     ],
